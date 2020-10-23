@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    position: fixed;
+    right: 100px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3ab9eb;
+    font-size: 1.2rem;
+    transition: color 0.5s;
+}
+
+
+
+nav ul li a:hover {
+    color: #da271b;
+}
+
+.active {
+    color: #3ab9eb;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 25px;
+}
+*/
+
+p {
+    color: #fff;
+}
+
+.menutoggle .menu-btn {
+    margin: 0 0 5px 0;
+    width: 28px;
+    padding: 2px;
+    height: 1px;
+    background: #da271b;
+}
+
+.menutoggle {
+    cursor: pointer;
+    display: none;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25vh auto;
+}
+
+.col-1 h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.col-1 p {
+    font-size: 1.3rem;
+}
+
+.logo a h3 {
+    color: #3ab9eb;
+    font-weight: bold;
+}
+
+.Mrow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about {
+    margin: 50px 0;
+}
+
+.Mcol-2 {
+    flex-basis: 50%;
+    min-width: 250px;
+    margin: 20px auto;
+}
+
+.Mcol-2 img {
+    width: 100%;
+}
+
+.stt {
+    padding: 10px;
+}
+
+.small-container {
+    max-width: 1090px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.small-container p {
+    color: #555;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.title {
+    color: #3ab9eb;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.awd img {
+    width: 65%;
+}
+
+.service {
+    background-color: #000;
+}
+
+.Mcol-6 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: scale 0.10s;
+}
+
+.Mcol-6 img {
+    width: 100%;
+    border: 5px solid #3ab9eb;
+}
+
+.Mcol-6:hover {
+    transform: scale(1.1);
+}
+
+.srt {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.s-text {
+    background-color: #3ab9eb;
+    padding: 5px;
+}
+
+.s-text p {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contactdetails {
+    padding: 10px;
+}
+
+.contactdetails h3 {
+    border-top: 1px solid #3ab9eb;
+    font-size: 1.3rem;
+    color: #da271b;
+    padding: 10px 0;
+}
+
+.contactdetails a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2rem;
+    transition: color 0.5s;
+}
+
+.contactdetails a:hover {
+    color: #3ab9eb;
+}
+
+.contactdetails h3:nth-last-child(1) {
+    border-bottom: 1px solid #3ab9eb;
+}
+
+.form {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.form form h2 {
+    color: #3ab9eb;
+    font-size: 1.3rem;
+}
+
+#ename,
+#eemail,
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    outline: none;
+    padding: 5px 0;
+}
+
+#ename:focus,
+#eemail:focus,
+textarea:focus {
+    border: 1px solid #3ab9eb;
+}
+
+.btn {
+    display: inline-block;
+    background: #da271b;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: background 0.5s;
+    width: 20%;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: #563434;
+}
+
+.event {
+    text-transform: uppercase;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    line-height: 1.9;
+}
+
+.navbar-nav a {
+    font-family: poppins sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #3ab9eb;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3ab9eb;
+}
+
+.w-100 {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.footer-col-2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-col-1 a,
+.footer-col-2 a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2rem;
+    transition: color 0.5s;
+}
+
+.footer-col-2 a:hover,
+.footer-col-1 a:hover {
+    color: #3ab9eb;
+}
+
+.footer-col-1 li,
+.footer-col-2 li {
+    list-style-type: none;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copy-right {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.staff {
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+/*-------media query for menu--------*/
+
+@media only screen and (max-width:768px) {
+    .navbar-light .navbar-brand {
+        font-size: 16px;
+    }
+    .navbar-toggler {
+        background: #fff;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+        width: 100%;
+        margin: auto;
+    }
+    .Mcol-2 h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .footer-col-1,
+    .footer-col-2 {
+        flex-basis: 100%;
+    }
+    .footer-col-2 {
+        text-align: justify;
+    }
+    .Mcol-6 {
+        flex-basis: 100%;
+    }
+    .srt {
+        margin-left: 0px;
+    }
+    .Mcol-4 {
+        flex-basis: 50%;
+    }
+    .logo a h3 {
+        font-size: 1.5rem;
+    }
+    .contactdetails h3 {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .btn {
+        width: 50%;
+    }
+    .contactdetails {
+        padding: 0px;
+    }
+}
+
+
+/*-------media query for menu--------*/
+
+@media only screen and (max-width:600px) {
+    .Mrow {
+        text-align: center;
+    }
+    .Mcol-2,
+    .Mcol-3,
+    .Mcol-4 {
+        flex-basis: 100%;
+    }
+    .Mcol-2 h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .small-container p {
+        text-align: left;
+    }
+    .stt {
+        padding: 0px;
+        margin-top: 5px;
+    }
+    .s-text p {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+}
